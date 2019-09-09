@@ -1,0 +1,368 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+/* line 16, ../scss/services.scss */
+html,
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 20, ../scss/services.scss */
+html, button, input, select, textarea {
+  color: #53555c; }
+
+/* line 24, ../scss/services.scss */
+hr {
+  border-bottom: 1px solid #ccc;
+  border-top: none; }
+
+/* ===========================
+	Global Elements
+=========================== */
+/* line 34, ../scss/services.scss */
+body #site-container {
+  width: 100%; }
+
+/* line 38, ../scss/services.scss */
+.container {
+  margin: 0 auto;
+  max-width: 949px;
+  padding: 10px; }
+  @media screen and (min-width: 680px) {
+    /* line 38, ../scss/services.scss */
+    .container {
+      padding: 24px; } }
+
+/* line 46, ../scss/services.scss */
+.col {
+  width: 100%; }
+
+@media screen and (min-width: 680px) {
+  /* line 51, ../scss/services.scss */
+  .two-col .col {
+    float: left;
+    width: 50%; }
+    /* line 55, ../scss/services.scss */
+    .two-col .col.first {
+      padding: 0 12px 0 0; }
+    /* line 58, ../scss/services.scss */
+    .two-col .col.last {
+      padding: 0 0 0 12px; } }
+
+@media screen and (min-width: 840px) {
+  /* line 65, ../scss/services.scss */
+  .three-col .col {
+    float: left;
+    width: 32%; }
+    /* line 69, ../scss/services.scss */
+    .three-col .col.first, .three-col .col.center {
+      margin-right: 1%; }
+    /* line 73, ../scss/services.scss */
+    .three-col .col.last, .three-col .col.center {
+      margin-left: 1%; } }
+
+/* ===========================
+	Custom Elements
+=========================== */
+/* line 86, ../scss/services.scss */
+.page-services .intro {
+  margin: auto;
+  max-width: 560px;
+  text-align: center;
+  text-transform: uppercase; }
+  /* line 91, ../scss/services.scss */
+  .page-services .intro h3 {
+    margin: 5px auto 30px !important;
+    line-height: 1.5em; }
+
+/* line 97, ../scss/services.scss */
+.overview .col {
+  margin-top: 30px; }
+  @media screen and (min-width: 680px) {
+    /* line 97, ../scss/services.scss */
+    .overview .col {
+      margin-top: 10px; } }
+  @media screen and (min-width: 840px) {
+    /* line 103, ../scss/services.scss */
+    .overview .col.first {
+      padding: 0 12px 0 70px; }
+    /* line 106, ../scss/services.scss */
+    .overview .col.last {
+      padding: 0 70px 0 12px; } }
+
+/* line 111, ../scss/services.scss */
+.stages {
+  background: url("../../Images/Services/map.png");
+  background-size: cover;
+  -webkit-box-shadow: inset 0px -3px 2px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0px -3px 2px 0px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: inset 0px -3px 2px 0px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: inset 0px -3px 2px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px -3px 2px 0px rgba(0, 0, 0, 0.2); }
+  /* line 115, ../scss/services.scss */
+  .stages .container {
+    padding: 40px 24px; }
+
+/* line 119, ../scss/services.scss */
+.service {
+  background: #fff;
+  border: 1px solid #c2c9ce;
+  cursor: pointer;
+  margin-bottom: 24px;
+  text-align: center;
+  -webkit-box-shadow: 0;
+  -moz-box-shadow: 0;
+  -ms-box-shadow: 0;
+  -o-box-shadow: 0;
+  box-shadow: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  @media screen and (min-width: 840px) {
+    /* line 119, ../scss/services.scss */
+    .service {
+      margin-bottom: 0; } }
+  /* line 132, ../scss/services.scss */
+  .service h3 {
+    font-style: normal;
+    text-transform: uppercase;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease; }
+  /* line 137, ../scss/services.scss */
+  .service h4 {
+    color: #a3abb8;
+    font-size: 0.750em;
+    font-weight: bold;
+    text-transform: uppercase; }
+  /* line 143, ../scss/services.scss */
+  .service p {
+    color: #a3aab7;
+    font-size: 0.688em; }
+  /* line 147, ../scss/services.scss */
+  .service.dim {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    -webkit-opacity: 0.3;
+    -moz-opacity: 0.3;
+    -ms-opacity: 0.3;
+    -o-opacity: 0.3;
+    opacity: 0.3; }
+  /* line 152, ../scss/services.scss */
+  .service .content {
+    border-style: solid;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top-width: 9px;
+    padding: 15px 0; }
+  /* line 160, ../scss/services.scss */
+  .service:hover {
+    background: #fff;
+    border-color: #fff;
+    -webkit-box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.3);
+    -ms-box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.3); }
+    /* line 164, ../scss/services.scss */
+    .service:hover h3,
+    .service:hover p {
+      color: #fff; }
+    /* line 168, ../scss/services.scss */
+    .service:hover .content {
+      border-color: #fff;
+      border-style: solid;
+      border-width: 9px;
+      padding-bottom: 6px; }
+
+/* line 177, ../scss/services.scss */
+.assess h3 {
+  color: #006ab0; }
+/* line 178, ../scss/services.scss */
+.assess h4 {
+  color: #a3bdda; }
+/* line 179, ../scss/services.scss */
+.assess .content {
+  border-top-color: #006ab0; }
+/* line 182, ../scss/services.scss */
+.assess:hover {
+  background: #006ab0; }
+
+/* line 187, ../scss/services.scss */
+.advise h3 {
+  color: #002757; }
+/* line 188, ../scss/services.scss */
+.advise h4 {
+  color: #a3aab7; }
+/* line 189, ../scss/services.scss */
+.advise .content {
+  border-top-color: #002757; }
+/* line 192, ../scss/services.scss */
+.advise:hover {
+  background: #002757; }
+
+/* line 197, ../scss/services.scss */
+.assist h3 {
+  color: #f56a22; }
+/* line 198, ../scss/services.scss */
+.assist h4 {
+  color: #fabda9; }
+/* line 199, ../scss/services.scss */
+.assist .content {
+  border-top-color: #f56a22; }
+/* line 202, ../scss/services.scss */
+.assist:hover {
+  background: #f56a22; }
+
+/* line 206, ../scss/services.scss */
+.info-bar {
+  background: #c2c9ce;
+  display: block;
+  font-weight: bold;
+  padding: 2px 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2); }
+  /* line 215, ../scss/services.scss */
+  .info-bar p {
+    color: #fff;
+    font-size: 0.625em; }
+
+/* line 221, ../scss/services.scss */
+.icon-title {
+  text-align: center; }
+
+/* line 224, ../scss/services.scss */
+.service-list {
+  margin: 30px auto 0; }
+  /* line 226, ../scss/services.scss */
+  .service-list .item {
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #222658;
+    display: block;
+    float: left;
+    font-size: 0.875em;
+    font-weight: bold;
+    height: 80px;
+    margin-bottom: 30px;
+    padding: 0 15px 0 70px;
+    text-transform: uppercase;
+    width: 100%;
+    transform-style: preserve-3d;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    -ms-opacity: 1;
+    -o-opacity: 1;
+    opacity: 1; }
+    /* line 245, ../scss/services.scss */
+    .service-list .item:hover {
+      color: #006ab0;
+      -webkit-transition: all 0.1s ease;
+      -moz-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+      -o-transition: all 0.1s ease;
+      transition: all 0.1s ease;
+      -webkit-transform: scale(1.025);
+      -moz-transform: scale(1.025);
+      -ms-transform: scale(1.025);
+      -o-transform: scale(1.025);
+      transform: scale(1.025); }
+    /* line 251, ../scss/services.scss */
+    .service-list .item.dim {
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+      filter: alpha(opacity=20);
+      -webkit-opacity: 0.2;
+      -moz-opacity: 0.2;
+      -ms-opacity: 0.2;
+      -o-opacity: 0.2;
+      opacity: 0.2; }
+    @media screen and (min-width: 480px) {
+      /* line 226, ../scss/services.scss */
+      .service-list .item {
+        width: 50%; } }
+    @media screen and (min-width: 680px) {
+      /* line 226, ../scss/services.scss */
+      .service-list .item {
+        width: 33.33%; } }
+    @media screen and (min-width: 910px) {
+      /* line 226, ../scss/services.scss */
+      .service-list .item {
+        width: 25%; } }
+    /* line 266, ../scss/services.scss */
+    .service-list .item p {
+      font-size: 1em;
+      margin: 0 !important;
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%); }
+
+/* line 276, ../scss/services.scss */
+.item.project-access {
+  background-image: url("../../Images/Services/iconproject_access.png"); }
+
+/* line 279, ../scss/services.scss */
+.item.work-health {
+  background-image: url("../../Images/Services/iconwork_health.png"); }
+
+/* line 282, ../scss/services.scss */
+.item.medical-supply {
+  background-image: url("../../Images/Services/iconmedical_supply.png"); }
+
+/* line 285, ../scss/services.scss */
+.item.health-checks {
+  background-image: url("../../Images/Services/iconhealth_check.png"); }
+
+/* line 288, ../scss/services.scss */
+.item.clinics {
+  background-image: url("../../Images/Services/iconclinics.png"); }
+
+/* line 291, ../scss/services.scss */
+.item.corporate {
+  background-image: url("../../Images/Services/iconcorporate.png"); }
+
+/* line 294, ../scss/services.scss */
+.item.information {
+  background-image: url("../../Images/Services/iconinformation.png"); }
+
+/* line 297, ../scss/services.scss */
+.item.tracking {
+  background-image: url("../../Images/Services/icontracking.png"); }
+
+/* line 300, ../scss/services.scss */
+.item.commercial {
+  background-image: url("../../Images/Services/iconcommercial.png"); }
+
+/* line 303, ../scss/services.scss */
+.item.medical-consulting {
+  background-image: url("../../Images/Services/iconmedical_consulting.png"); }
+
+/* line 306, ../scss/services.scss */
+.item.travel-risk {
+  background-image: url("../../Images/Services/icontravel_risk.png"); }
+
+/* line 309, ../scss/services.scss */
+.item.concierge {
+  background-image: url("../../Images/Services/iconconcierge.png"); }
+
+
+.service .content{padding-left:15px;padding-right:15px;-webkit-transition:border-color .25s ease-in-out,background-color .25s ease-in-out;transition:border-color .25s ease-in-out,background-color .25s ease-in-out}.assess h3{color:#2f4696}.assess h4{color:#8598d9}.assess .content{border-top-color:#2f4696}.assess:hover{background:#2f4696}.assess:hover .content{border-width:0;border-top-width:9px;padding-bottom:15px}.advise h3{color:#232762}.advise h4{color:#5a61c4}.advise .content{border-top-color:#232762}.advise:hover{background:#232762}.advise:hover .content{border-width:0;border-top-width:9px;padding-bottom:15px}.assist h3{color:#ef820f}.assist h4{color:#f9cd9e}.assist .content{border-top-color:#ef820f}.assist:hover{background:#ef820f}.assist:hover .content{border-width:0;border-top-width:9px;padding-bottom:15px}.item.corporate{background-image:url(../../Images/newsservicesicons/assistance.png)}@media only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2 / 1),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){.item.corporate{background-image:url(../../Images/newsservicesicons/assistancebig.png);background-size:62px 62px}}.item.tracking{background-image:url(../../Images/newsservicesicons/tracking.png)}@media only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2 / 1),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){.item.tracking{background-image:url(../../Images/newsservicesicons/trackingbig.png);background-size:62px 62px}}.item.commercial{background-image:url(../../Images/newsservicesicons/training.png)}@media only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2 / 1),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){.item.commercial{background-image:url(../../Images/newsservicesicons/trainingbig.png);background-size:62px 62px}}.item.medical-consulting{background-image:url(../../Images/newsservicesicons/consulting.png)}@media only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2 / 1),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){.item.medical-consulting{background-image:url(../../Images/newsservicesicons/consultingbig.png);background-size:62px 62px}}.item.project-access{background-image:url(../../Images/newsservicesicons/staffing.png)}@media only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2 / 1),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){.item.project-access{background-image:url(../../Images/newsservicesicons/staffingbig.png);background-size:62px 62px}}.item.medical-supply{background-image:url(../../Images/newsservicesicons/supplies.png)}@media only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2 / 1),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){.item.medical-supply{background-image:url(../../Images/newsservicesicons/suppliesbig.png);background-size:62px 62px}}.item.work-health{background-image:url(../../Images/newsservicesicons/topside.png)}@media only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2 / 1),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){.item.work-health{background-image:url(../../Images/newsservicesicons/topsidebig.png);background-size:62px 62px}}.item.clinics{background-image:url(../../Images/newsservicesicons/clinics.png)}@media only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2 / 1),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){.item.clinics{background-image:url(../../Images/newsservicesicons/clinicsbig.png);background-size:62px 62px}}.item.health-checks{background-image:url(../../Images/newsservicesicons/occupationalhealth.png)}@media only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2 / 1),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){.item.health-checks{background-image:url(../../Images/newsservicesicons/occupationalhealthbig.png);background-size:62px 62px}}.item.concierge{background-image:url(../../Images/newsservicesicons/travelsecurity.png)}@media only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2 / 1),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){.item.concierge{background-image:url(../../Images/newsservicesicons/travelsecuritybig.png);background-size:62px 62px}}
+/*# sourceMappingURL=services.css.map */
