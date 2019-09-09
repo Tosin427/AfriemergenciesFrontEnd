@@ -5,12 +5,12 @@ $(document).ready(function () {
     console.log('clicked')
 
 
-    var emailId = $('#emailId').val()
+    var email = $('#emailId').val()
     var statusElm = $('.status')
     statusElm.empty()
 
 
-    if (emailId.length > 5 && emailId.includes('@') && emailId.includes('.')) {
+    if (email.length > 5 && email.includes('@') && email.includes('.')) {
       statusElm.append('<div>email is valid</div>');
       console.log('valid email')
     } else {
