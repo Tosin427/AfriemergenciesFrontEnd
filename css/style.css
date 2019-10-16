@@ -22880,5 +22880,25 @@ div.global-reach {
 	color: red;
 }
 
+/* .imageBtn {
+	width: 150px;
+	height: 100px;
+	margin-top: -150px;
+	margin-left: 150px;
+}
 
 
+.imageBtn1 {
+	width: 150px;
+	height: 100px;
+	margin-top: -100px;
+	margin-left: 300px;
+} */
+
+.mobileBtn {
+	width: 300px;
+	position: absolute;
+	top: 300px;
+	right: 250px;
+	z-index: 2;
+}
