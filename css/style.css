@@ -23044,3 +23044,44 @@ div.global-reach {
 	width: 30%;
 }
 
+
+
+.bg-free-ambulance1 {
+	margin-right: 10px;
+	width: 82px;
+	height: 82px;
+	background: url("/images/ie8-panel/ambulance1.png") no-repeat;
+	position: relative;
+	display: inline-block;
+}
+
+.bg-free-ambulance1:hover{
+	background: url("/images/ie8-panel/hospital2.png") no-repeat;
+}
+
+
+.bg-free-blackdoc {
+	margin-right: 10px;
+	width: 82px;
+	height: 82px;
+	background: url("/images/ie8-panel/blackdoc.png") no-repeat;
+	position: relative;
+	display: inline-block;
+}
+
+.bg-free-blackdoc:hover{
+	background: url("/images/ie8-panel/hospital2.png") no-repeat;
+}
+
+.bg-free-training {
+	margin-right: 10px;
+	width: 82px;
+	height: 82px;
+	background: url("/images/ie8-panel/training.png") no-repeat;
+	position: relative;
+	display: inline-block;
+}
+
+.bg-free-training:hover{
+	background: url("/images/ie8-panel/hospital2.png") no-repeat;
+}
