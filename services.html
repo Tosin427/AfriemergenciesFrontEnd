@@ -21,6 +21,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:600|Poppins&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ccee302cff.js" crossorigin="anonymous"></script>
   <style>
     .ie-panel {
       display: none;
@@ -57,12 +58,12 @@
 
 
 
-  <div class="container-fluid">
+  <!-- <div class="container-fluid">
     <a class="section section-banner d-none d-xl-block" href="#" target="_blank"
       style="background-image: url(images/backgroundFor1920x60.jpg); background-image: -webkit-image-set( url(images/backgroundFor1920x60.jpg) 1x, url(images/backgroundFor3840x120.jpg) 2x )"><img
         src="images/emergency1.png" srcset="images/emergency1.png 1x, images/foreground3200x120.png 2x" alt=""
         width="1600" height="310"></a>
-  </div>
+  </div> -->
   <div class="page">
     <!-- Page Header-->
     <header class="section page-header">
@@ -90,20 +91,27 @@
               <div class="rd-navbar-nav-wrap">
                 <!-- RD Navbar Nav-->
                 <ul class="rd-navbar-nav">
-                  <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                  <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html"
+                      style="font-family: nexa;">Home</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="services.html">Medical Services</a>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="services.html" style="font-family: nexa;">Medical
+                      Services</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="#about-us.html">Members Login</a>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="index.html" style="font-family: nexa;">Members
+                      Login</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="mobile.html">Mobile App</a>
-                  </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="#contacts.html">Contact Us</a>
-                  </li>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="mobile.html" style="font-family: nexa;">Mobile
+                      App</a>
                   </li>
                   <li class="rd-nav-item">
-                    <button type="button" class="btn btn-outline-danger">Emergency? Call Us</button>
+                    <a class="rd-nav-link" href="about-us.html" style="font-family: nexa;">About Us</a>
+                    <!-- <button type="button" class="btn btn-outline-danger">Emergency? Call Us</button> -->
                   </li>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html" style="font-family: nexa;">Contact
+                      Us</a>
+                  </li>
+                  </li>
+
                 </ul>
               </div>
             </div>
@@ -135,7 +143,66 @@
     </div>
 
 
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="one media">
+            <div class="media-left img-one">
+              <span>
+                <div class="bg-free-ambulance1"></div>
+              </span>
+            </div>
+            <div class="goal-body">
+              <h5>EMERGNECY MEDICAL RESPONSE</h5>
+              <p>Join us as a network Hospital or ambulance :AfrieEmergencies helps tackle the issue of under-utilised
+                ambulances. When we add your ambulances to our pool, they become just a click away for people in need.
+                Contribute to improving the response time of ambulances in the city by becoming AfriEmergencies
+                accredited and joining the AfriEmergenices network. </p>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-lg-4">
+          <div class="one media">
+            <div class="media-left img-one">
+              <span>
+                <div class="bg-free-blackdoc"></div>
+              </span>
+            </div>
+            <div class="goal-body">
+              <h5>MEDICAL CONCIERGE SERVICES</h5>
+              <p>We recognise that even when you are unwell, it’s important to still feel in control of your life. Going
+                through hospital treatment can naturally be a daunting experience and have an emotional as well as a
+                physical impact. For all less urgent medical complaints and presentations use the AfriEmergencies
+                concierge doctor service which is available via the application or call centre. Our doctors will provide
+                a professional personalised service right at your door- when you call.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4">
+          <div class="one media">
+            <div class="media-left img-one">
+              <span>
+                <div class="bg-free-training"></div>
+              </span>
+            </div>
+            <div class="goal-body">
+              <h5>MEDICAL ACCREDITATION AND TRAINING</h5>
+              <p>High Quality medical care is central to our core values and this is why AfriEmergencies have created
+                the AfriEmergecnies accreditation platform. By making it clear what standards ambulance and first aid
+                providers must abide by we have raised the quality of care in Nigeria and we will continue to by growing
+                our group of AfriEmergencies medical providers then monitoring them with regular site visits and
+                assessments. </p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
 
 
 
@@ -182,16 +249,33 @@
       </div>
     </div>
 
-    <div class="container">
+    <button type="button" class="button-wrap-2 button button-default btn btn-info btn-lg btnAfri" data-toggle="modal"
+      data-target="#myModal">Join The AfriEmergencies Team</button>
+    <button type="button" class="button-wrap-2 button button-default btn btn-info btn-lg btnAfri" data-toggle="modal"
+      data-target="#myModal">Become an Accredited provider</button>
+
+    <!-- <div class="container forBtn">
+      <div class="row">
+        <div class="col-sm-6 afriBtn"><button type="button"
+            class="button-wrap-2 button button-default btn btn-info btn-lg" data-toggle="modal"
+            data-target="#myModal">Join The AfriEmergencies Team</button></div>
+        <div class="col-sm-6"><button type="button" class="button-wrap-2 button button-default btn btn-info btn-lg"
+            data-toggle="modal" data-target="#myModal">Become an Accredited provider</button></div>
+      </div>
+    </div> -->
+
+    <!-- <div class="container">
       <div class="row">
         <div class="col-lg-4"></div>
         <div class="col-lg-4 center1">
           <button type="button" class="button-wrap-2 button button-default btn btn-info btn-lg" data-toggle="modal"
             data-target="#myModal">Join The AfriEmergencies Team</button>
+          <button type="button" class="button-wrap-2 button button-default btn btn-info btn-lg" data-toggle="modal"
+            data-target="#myModal">Join The AfriEmergencies Team</button>
         </div>
         <div class="col-lg-4"></div>
       </div>
-    </div>
+    </div> -->
 
 
 
