@@ -1012,10 +1012,10 @@ a[href*='tel'], a[href*='mailto'] {
 	position: absolute;
 	left: 26px;
 	bottom: 25px;
-	max-width: 80%;
+	max-width: 100%;
 	padding: 6px 19px 4px;
 	text-align: right;
-	background-color: #ffffff;
+	/* background-color:rgb(255, 255, 255, 0.5 ); */
 }
 
 .box-team .position {
@@ -23084,4 +23084,9 @@ div.global-reach {
 
 .bg-free-training:hover{
 	background: url("/images/ie8-panel/hospital2.png") no-repeat;
+}
+
+
+.fontThings {
+	color: red;;
 }
