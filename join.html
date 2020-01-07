@@ -3,7 +3,7 @@
 <html class="wide wow-animation" lang="en">
 
 <head>
-  <title>Contact Us</title>
+  <title>Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,16 +12,12 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/join.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
-  <!--===============================================================================================-->
-
-
-
-  <link rel="stylesheet" type="text/css" href="css/util.css">
-  <link rel="stylesheet" type="text/css" href="css/main.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-  <script src="./js/contact.js"></script>
+  <script src="./js/main.js"></script>
   <style>
     .ie-panel {
       display: none;
@@ -55,10 +51,15 @@
     </div>
   </div>
 
+  
 
-
-
-
+  <!--
+  <div class="container-fluid">
+    <a class="section section-banner d-none d-xl-block" href="#" target="_blank"
+      style="background-image: url(images/backgroundFor1920x60.jpg); background-image: -webkit-image-set( url(images/backgroundFor1920x60.jpg) 1x, url(images/backgroundFor3840x120.jpg) 2x )"><img
+        src="images/emergency1.png" srcset="images/emergency1.png 1x, images/foreground3200x120.png 2x" alt=""
+        width="1600" height="310"></a>
+  </div> -->
   <div class="page">
     <!-- Page Header-->
     <header class="section page-header">
@@ -89,10 +90,11 @@
                   <li class="rd-nav-item "><a class="rd-nav-link" href="index.html"
                       style="font-family: nexa;">Home</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="services.html" style="font-family: nexa;">Medical
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="services.html"
+                      style="font-family: nexa; ">Medical
                       Services</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="join.html" style="font-family: nexa;">Join Us</a>
+                  <li class="rd-nav-item active"><a class="rd-nav-link" href="join.html" style="font-family: nexa;">Join Us</a>
                   </li>
                   <li class="rd-nav-item"><a class="rd-nav-link" href="mobile.html" style="font-family: nexa;">Mobile
                       App</a>
@@ -101,7 +103,7 @@
                     <a class="rd-nav-link" href="index.html" style="font-family: nexa;">About Us</a>
                     <!-- <button type="button" class="btn btn-outline-danger">Emergency? Call Us</button> -->
                   </li>
-                  <li class="rd-nav-item active"><a class="rd-nav-link" href="contacts.html" style="font-family: nexa;">Contact
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html" style="font-family: nexa;">Contact
                       Us</a>
                   </li>
                   </li>
@@ -113,68 +115,25 @@
         </nav>
       </div>
     </header>
+    <!-- Swiper-->
 
+    <h3 style="text-align: center; margin-top: 5%; margin-left: 10%; margin-right: 10%;" >Download this form and fill to Join Us as a partner</h3>
 
-    <!-- Contact Form -->
-    <div class="container-contact100">
-      <div class="wrap-contact100">
-        <form class="contact100-form validate-form" action="https://formspree.io/oluwatosinajibs@gmail.com"
-          method="POST">
-          <span class="contact100-form-title" style="font-family: nexa;">
-            Contact Us
-          </span>
-
-          <div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
-            <span class="label-input100" style="font-family: nexa;">FULL NAME *</span>
-            <input class="input100 name" type="text" name="name" placeholder="Enter Your Name" required>
-          </div>
-
-          <div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate="Enter Your Email (e@a.x)">
-            <span class="label-input100" style="font-family: nexa;">Email *</span>
-            <input class="input100 email" type="text" name="email" placeholder="Enter Your Email " required>
-          </div>
-
-          <div class="wrap-input100 bg1 rs1-wrap-input100">
-            <span class="label-input100" style="font-family: nexa;">Phone</span>
-            <input class="input100 phone" type="text" name="phone" placeholder="Enter Number Phone" required>
-          </div>
-
-          <div class="wrap-input100 input100-select bg1">
-            <span class="label-input100 services" style="font-family: nexa;">Need Services?</span>
-            <div>
-              <select class="js-select2" name="service">
-                <option style="font-family: nexa;">Emergency Medical Response</option>
-                <option style="font-family: nexa;">Concierge Doctor</option>
-                <option style="font-family: nexa;">International Medical Services</option>
-                <option style="font-family: nexa;">Medical Training and Accreditation</option>
-              </select>
-              <div class="dropDownSelect2"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <a href="Sitevisitreport.docx"><button class="btnStyle btn btn-success">Download</button></a>
             </div>
-          </div>
-
-
-          <div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate="Please Type Your Message">
-            <span class="label-input100 message" style="font-family: nexa;">Message</span>
-            <textarea class="input100" name="message" placeholder="Your message here..."></textarea>
-          </div>
-
-          <div class="container-contact100-form-btn">
-            <button class="contact100-form-btn submit" type="submit">
-              <span style="font-family: nexa;">
-                Submit
-                <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-              </span>
-            </button>
-          </div>
-
-          <div class="status"></div>
-        </form>
-      </div>
+            <div class="col-4"></div>
+        </div>
     </div>
 
-    <!-- Contact Form -->
+    <p style="margin-left: 30%; color: red; margin-bottom: 100px;">After you have filled the form send to <a href="afriemergencies@gmail.com">afriemergencies@gmail.com</a></p>
 
+    
 
+      
 
 
 
@@ -190,16 +149,16 @@
             <h5>Location</h5>
             <ul class="list list-sm">
               <li>
-                <p>No 145 Trade More</p>
+                <p style="color: white;">No 1 Panana Street</p>
               </li>
               <li>
-                <p>Avenue Lugbe</p>
+                <p style="color: white;">off Minister's Hill</p>
               </li>
               <li>
-                <p>Abuja</p>
+                <p style="color: white;">Maitama, Abuja</p>
               </li>
               <li>
-                <p>Nigeria</p>
+                <p style="color: white;" >Nigeria</p>
               </li>
             </ul>
           </div>
@@ -207,7 +166,7 @@
             <h5>Contacts</h5>
             <dl class="list-terms-custom">
               <dt>Ph.</dt>
-              <dd><a class="link-default" href="tel:#">1-300-123-1234</a></dd>
+              <dd><a class="link-default" href="tel:#">+2349099995595</a></dd>
             </dl>
             <dl class="list-terms-custom">
               <dt>Mail.</dt>
